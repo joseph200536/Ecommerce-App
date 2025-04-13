@@ -21,7 +21,7 @@ function App() {
     <>
       <NavBar onSearch={onSearch} cartItemCount={cartItemCount()} />
       <Routes>
-        <Route path="/" element={<Products />} />
+        <Route path="/Ecommerce-App" element={<Products />} />
         <Route path="/product/:productId" element={<Product />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<NotFound />} />
